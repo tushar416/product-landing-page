@@ -272,10 +272,23 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .card-grid{
-  grid-template-columns: repeat(auto-fill, minmax(auto, 1fr))
-  };
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
   .about-content {
     width: 80%;
   }
+  .footer-div h2 {
+    font-size: 1.2rem;
+  }
+  .footer-container {
+    line-height: 1.2;
+  }
+  .footer-div p {
+    font-size: 0.8rem;
+  }
+  .social-icons li {
+    font-size: 0.8rem;
+  }
 }
+
